@@ -42,7 +42,7 @@ def app():
     
     data = load_data();
     # present data
-    st.sidebar.subheader("Show random news")
+    st.sidebar.subheader("Show Random News")
     if not st.sidebar.checkbox("Hide",True, key='1'):
         random_news = st.sidebar.radio('Category',("Real News","Fake News"))
         news_article = data.query('Category == @random_news')[['text']].sample(n=1).iat[0,0]
