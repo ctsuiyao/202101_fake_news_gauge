@@ -1,11 +1,8 @@
 pandas
 streamlit
 numpy
-json
-collections
 pickle
-plotly.express
-plotly.graph_objects
+plotly
 PIL
 liwc
 altair
