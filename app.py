@@ -108,7 +108,7 @@ def app():
     st.sidebar.subheader("Predicting Model")
     if not st.sidebar.checkbox("Hide",False, key='5'):
         testNews = st.text_input("News goes here")
-        parse, category_names = liwc.load_token_parser('data/queryDictionary.dic')
+        liwc_df = df_flat.loc[:, (df_flat.columns.str.startswith('liwc')|df_flat.columns.str.startswith('label'))]
         # when 'Predict' is clicked, make the prediction and store it 
         if st.button("Predict"): 
             pickle_in = open('classifier.pkl', 'rb') 
