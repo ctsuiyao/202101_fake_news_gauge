@@ -47,7 +47,7 @@ def app():
         random_news = st.sidebar.radio('Category',("Real News","Fake News"))
         news_article = data.query('Category == @random_news')[['text']].sample(n=1).iat[0,0]
 
-        st.sidebar.markdown(news_article.decode('utf-8').strip())
+        st.sidebar.markdown(news_article.strip())
     
     # viz
     df_flat = pd.read_csv('data/flaten_file2.csv')
