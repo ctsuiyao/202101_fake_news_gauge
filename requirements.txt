@@ -1,7 +1,6 @@
 pandas
 streamlit
 numpy
-pickle
 plotly
 PIL
 liwc
