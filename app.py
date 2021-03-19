@@ -135,7 +135,7 @@ def app():
          * Utilizes POS and LIWC to extract features
          * And cross-validate trained with different classification models
     """)
-        st.write("GitHub: [ctsuiyao/202101_detecting_fakenews](https://github.com/ctsuiyao/202101_detecting_fakenews)")
+        st.write("GitHub: [ctsuiyao/202101_fake_news_gauge](https://github.com/ctsuiyao/202101_fake_news_gauge)")
 
 
 if __name__ == '__main__':
