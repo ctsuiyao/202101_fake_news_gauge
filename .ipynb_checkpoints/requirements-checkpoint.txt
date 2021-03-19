@@ -2,6 +2,6 @@ pandas
 streamlit
 numpy
 plotly
-PIL
+Pillow
 liwc
 altair
