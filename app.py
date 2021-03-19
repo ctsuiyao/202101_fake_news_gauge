@@ -14,7 +14,7 @@ import altair as alt
 #import spacy
 #nlp = spacy.load("en_core_web_sm")
 
-
+parse, category_names = liwc.load_token_parser('data/queryDictionary.dic')
 def tokenize(text):
     # you may want to use a smarter tokenizer
     for match in re.finditer(r'\w+', text, re.UNICODE):
