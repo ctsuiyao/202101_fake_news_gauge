@@ -1,0 +1,12 @@
+pandas
+streamlit
+numpy
+re
+son
+collections
+pickle
+plotly.express
+plotly.graph_objects
+PIL
+liwc
+altair
